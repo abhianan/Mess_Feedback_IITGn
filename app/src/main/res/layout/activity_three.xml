@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textColor="#b00b13"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lengthy one! (Optional)"
+            android:id="@+id/tv1"
+            android:textSize="30dp"
+            android:layout_gravity="center_horizontal" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:text="Feeling Lazy?"
+                android:textColor="#000000"
+                android:id="@+id/tv2"
+                android:textSize="20dp"
+                android:paddingTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"/>
+
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="Skip"
+                android:id="@+id/b1"
+                android:layout_gravity="center_horizontal"
+                android:textSize="15dp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:textColor="#6a006a"
+            android:textStyle="italic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Availability of Drinking Water on the table: "
+            android:textSize="18dp"
+            android:id="@+id/tV2" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/eT2" />
+
+        <TextView
+            android:textColor="#6a006a"
+            android:textStyle="italic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="How do you like the current mess menu?"
+            android:textSize="18dp"
+            android:id="@+id/tV3" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/eT3" />
+
+        <TextView
+            android:textColor="#6a006a"
+            android:textStyle="italic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Food items you liked:"
+            android:textSize="18dp"
+            android:id="@+id/tV4" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/eT4" />
+
+        <TextView
+            android:textColor="#6a006a"
+            android:textStyle="italic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Food items you did not like at all:"
+            android:textSize="18dp"
+            android:id="@+id/tV5" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/eT5" />
+
+        <TextView
+            android:textColor="#6a006a"
+            android:textStyle="italic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Food items that need improvement:"
+            android:textSize="18dp"
+            android:id="@+id/tV6" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/eT6" />
+
+        <TextView
+            android:textColor="#6a006a"
+            android:textStyle="italic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Any issues with behaviour of mess staff:"
+            android:textSize="18dp"
+            android:id="@+id/tV7" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/eT7" />
+
+        <TextView
+            android:textColor="#6a006a"
+            android:textStyle="italic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Any other suggestions:"
+            android:textSize="18dp"
+            android:id="@+id/tV8" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/eT8" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="SUBMIT"
+            android:id="@+id/b2"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textColor="#b00b13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quick one!"
+            android:id="@+id/tv1"
+            android:textSize="30dp"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="How would you rate the taste of the food?"
+            android:textColor="#6a006a"
+            android:textSize="19dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/textView"
+            android:textStyle="italic"/>
+
+        <RadioGroup
+            android:id="@+id/rg1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bad"
+                android:id="@+id/rb1"
+                android:checked="false"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Very Bad"
+                android:id="@+id/rb2" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Good"
+                android:id="@+id/rb3" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Very Good"
+                android:id="@+id/rb4" />
+
+        </RadioGroup>
+
+        <TextView
+            android:textColor="#6a006a"
+            android:textStyle="italic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="How do you rate the Quality of the food? (Based on oil qnty. or spice qnty. etc)"
+
+            android:textSize="19dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/tv2" />
+
+        <RadioGroup
+            android:id="@+id/rg2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:textAlignment="center">
+
+
+
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Very Bad"
+                android:id="@+id/rb5"
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bad"
+                android:id="@+id/rb6" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Good"
+                android:id="@+id/rb7" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Very Good"
+                android:id="@+id/rb8" />
+
+        </RadioGroup>
+
+        <TextView
+            android:textStyle="italic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="How long did you wait for food?"
+            android:textColor="#6a006a"
+            android:textSize="19dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/tv4" />
+
+        <RadioGroup
+            android:id="@+id/rg3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:textAlignment="center">
+
+
+
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Long"
+                android:id="@+id/rb9" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A little"
+                android:id="@+id/rb10" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Not at all"
+                android:id="@+id/rb11" />
+
+        </RadioGroup>
+
+        <TextView
+            android:textStyle="italic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="How was the overall cleanliness in the hall? (Utensils, Tables, Handwash Area)"
+            android:textColor="#6a006a"
+            android:textSize="19dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/tv5" />
+
+
+        <RadioGroup
+            android:id="@+id/rg4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:textAlignment="center">
+
+
+
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Poor"
+                android:id="@+id/rb12" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Average"
+                android:id="@+id/rb13" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pretty Clean"
+                android:id="@+id/rb14" />
+
+        </RadioGroup>
+
+        <TextView
+            android:textStyle="italic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="How would you rate your overall dining experience?"
+            android:textColor="#6a006a"
+            android:textSize="19dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/tv6" />
+
+        <RadioGroup
+            android:id="@+id/rg5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:textAlignment="center">
+
+
+
+
+
+            <RadioButton
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Very Bad"
+                android:id="@+id/rb15" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bad"
+                android:id="@+id/rb16" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Good"
+                android:id="@+id/rb17" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Very Good"
+                android:id="@+id/rb18" />
+
+        </RadioGroup>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:id="@+id/b1"
+            android:layout_gravity="center" />
+
+
+    </LinearLayout>
+</ScrollView>
